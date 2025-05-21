@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ScratchFile FileVersion="3.0">
+  <FileVersion>3.0</FileVersion>
+  <Workspace>
+    <WorkspaceType>Single-project</WorkspaceType>
+    <WorkspacePath>C:\Users\BAZINFO\Desktop\g4test\</WorkspacePath>
+    <underRoot>false</underRoot>
+    <TrustZone>0</TrustZone>
+    <HAL_Driver>C:\Users\BAZINFO\STM32Cube\Repository\STM32Cube_FW_G4_V1.5.2\</HAL_Driver>
+    <CMSIS>..\Drivers\CMSIS</CMSIS>
+    <Toolchain>EWARM</Toolchain>
+    <Toolversion>8.50</Toolversion>
+    <IocFile>g4test.ioc</IocFile>
+    <Project>
+              
+      <ProjectName>g4test</ProjectName>
+           
+      <ProjectNature>C</ProjectNature>
+       
+      <Secure/>
+            
+      <filestoremove>                           </filestoremove>
+          
+      <configs>
+        <config>
+              
+          <name>g4test</name>
+          	 
+          <mainSourceRepo>Core</mainSourceRepo>
+             
+          <sourceStructure>Advanced</sourceStructure>
+           
+          <device>STM32G431RBTx</device>
+          		     
+          <cpucore/>
+              
+          <fpu>SP</fpu>
+                
+          <memories>
+                       
+            <memory access="xrw" name="RAM" size="32768" start="0x20000000"/>
+                    
+            <memory access="rx" name="FLASH" size="131072" start="0x8000000"/>
+                
+          </memories>
+              
+          <startup>C:\Users\BAZINFO\STM32Cube\Repository\STM32Cube_FW_G4_V1.5.2\Drivers\CMSIS\Device\ST\STM32G4xx\Source\Templates\iar\startup_stm32g431xx.s</startup>
+                
+          <LinkSettings>
+                    
+            <icfloc/>
+            	
+            <LinkAdditionalLibs>	</LinkAdditionalLibs>
+          </LinkSettings>
+              
+          <heapSize>0x200</heapSize>
+              
+          <stackSize>0x400</stackSize>
+                  
+          <cpuclock>16</cpuclock>
+                  
+          <board>custom</board>
+              
+          <debugprobe>swd</debugprobe>
+              
+          <optimization/>
+              
+          <Aincludes>
+                    
+            <include/>
+                    
+          </Aincludes>
+              
+          <Adefines>        </Adefines>
+                
+          <Cdefines>
+                    
+            <define>USE_HAL_DRIVER</define>
+                    
+            <define>STM32G431xx</define>
+                    
+          </Cdefines>
+              
+          <Ldefines>        </Ldefines>
+                  
+          <Cincludes>
+            		        
+            <include>..\Core\Inc</include>
+                    
+            <include>..\Drivers\STM32G4xx_HAL_Driver\Inc</include>
+                    
+            <include>..\Drivers\STM32G4xx_HAL_Driver\Inc\Legacy</include>
+                    
+            <include>..\Drivers\CMSIS\Device\ST\STM32G4xx\Include</include>
+                    
+            <include>..\Drivers\CMSIS\Include</include>
+                    
+          </Cincludes>
+              
+          <definestoremove>
+                    
+            <Adefines>            </Adefines>
+                    
+            <Cdefines>
+                                  
+              <define>USE_FULL_LL_DRIVER</define>
+                                  
+              <define>USE_FULL_ASSERT=1U</define>
+                          
+            </Cdefines>
+                     
+            <Ldefines>            </Ldefines>
+                     
+          </definestoremove>
+              
+          <inctoremove>
+                    
+            <Aincludes>
+                          
+              <include/>
+                          
+            </Aincludes>
+                    
+            <Cincludes>            </Cincludes>
+                    
+          </inctoremove>
+                 
+        </config>
+                
+      </configs>
+       
+      <copyAsReference>false</copyAsReference>
+       
+      <Groups>
+            
+        <group>
+                  
+          <name>Drivers</name>
+                                       
+          <group>
+                        
+            <name>STM32G4xx_HAL_Driver</name>
+                        
+            <file>
+                              
+              <name>..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_spi.c</name>
+                              
+            </file>
+                        
+            <file>
+                              
+              <name>..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_spi_ex.c</name>
+                              
+            </file>
+                        
+            <file>
+                              
+              <name>..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal.c</name>
+                              
+            </file>
+                        
+            <file>
+                              
+              <name>..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_rcc.c</name>
+                              
+            </file>
+                        
+            <file>
+                              
+              <name>..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_rcc_ex.c</name>
+                              
+            </file>
+                        
+            <file>
+                              
+              <name>..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash.c</name>
+                              
+            </file>
+                        
+            <file>
+                              
+              <name>..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash_ex.c</name>
+                              
+            </file>
+                        
+            <file>
+                              
+              <name>..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_flash_ramfunc.c</name>
+                              
+            </file>
+                        
+            <file>
+                              
+              <name>..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_gpio.c</name>
+                              
+            </file>
+                        
+            <file>
+                              
+              <name>..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_exti.c</name>
+                              
+            </file>
+                        
+            <file>
+                              
+              <name>..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dma.c</name>
+                              
+            </file>
+                        
+            <file>
+                              
+              <name>..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_dma_ex.c</name>
+                              
+            </file>
+                        
+            <file>
+                              
+              <name>..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_pwr.c</name>
+                              
+            </file>
+                        
+            <file>
+                              
+              <name>..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_pwr_ex.c</name>
+                              
+            </file>
+                        
+            <file>
+                              
+              <name>..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_cortex.c</name>
+                              
+            </file>
+                        
+            <file>
+                              
+              <name>..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_tim.c</name>
+                              
+            </file>
+                        
+            <file>
+                              
+              <name>..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_tim_ex.c</name>
+                              
+            </file>
+                        
+            <file>
+                              
+              <name>..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_uart.c</name>
+                              
+            </file>
+                        
+            <file>
+                              
+              <name>..\Drivers\STM32G4xx_HAL_Driver\Src\stm32g4xx_hal_uart_ex.c</name>
+                              
+            </file>
+                        
+          </group>
+                  
+          <group>
+                        
+            <name>CMSIS</name>
+                            
+            <file>
+                                          
+              <name>../Core/Src/system_stm32g4xx.c</name>
+                                          
+            </file>
+                                    
+          </group>
+                  
+        </group>
+               
+        <group>
+                  
+          <name>Application</name>
+                  
+          <group>
+                        
+            <name>User</name>
+                              
+            <group>
+                              
+              <name>Core</name>
+                                
+              <file>
+                                    
+                <name>..\Core\Src\main.c</name>
+                                    
+              </file>
+                              
+              <file>
+                                    
+                <name>..\Core\Src\stm32g4xx_it.c</name>
+                                    
+              </file>
+                              
+              <file>
+                                    
+                <name>..\Core\Src\stm32g4xx_hal_msp.c</name>
+                                    
+              </file>
+                              
+            </group>
+                                          
+          </group>
+                   
+        </group>
+                
+      </Groups>
+    </Project>
+  </Workspace>
+</ScratchFile>

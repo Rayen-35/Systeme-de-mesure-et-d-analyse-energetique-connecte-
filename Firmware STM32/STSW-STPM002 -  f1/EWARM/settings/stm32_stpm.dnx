@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <StLinkDriver>
+        <stlinkserialNo>34190567</stlinkserialNo>
+        <stlinkfoundProbes />
+        <stlinkResetStyle>0</stlinkResetStyle>
+        <stlinkResetStrategy>0</stlinkResetStrategy>
+        <CStepIntDis>_ 1</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+    </StLinkDriver>
+    <DebugChecksum>
+        <Checksum>1125261790</Checksum>
+    </DebugChecksum>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+        <InstrCount>0</InstrCount>
+    </Disassembly>
+    <CodeCoverage>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+        <HideCovered>0</HideCovered>
+    </CodeCoverage>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <SWOTraceHWSettings>
+        <OverrideDefaultClocks>0</OverrideDefaultClocks>
+        <CpuClock>72000000</CpuClock>
+        <ClockAutoDetect>0</ClockAutoDetect>
+        <ClockWanted>2000000</ClockWanted>
+        <JtagSpeed>2000000</JtagSpeed>
+        <Prescaler>36</Prescaler>
+        <TimeStampPrescIndex>0</TimeStampPrescIndex>
+        <TimeStampPrescData>0</TimeStampPrescData>
+        <PcSampCYCTAP>1</PcSampCYCTAP>
+        <PcSampPOSTCNT>15</PcSampPOSTCNT>
+        <PcSampIndex>0</PcSampIndex>
+        <DataLogMode>0</DataLogMode>
+        <ITMportsEnable>0</ITMportsEnable>
+        <ITMportsTermIO>0</ITMportsTermIO>
+        <ITMportsLogFile>0</ITMportsLogFile>
+        <ITMlogFile>$PROJ_DIR$\ITM.log</ITMlogFile>
+    </SWOTraceHWSettings>
+    <PlDriver>
+        <MemConfigValue>C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_3\arm\CONFIG\debugger\ST\STM32F103RB.ddf</MemConfigValue>
+    </PlDriver>
+    <Jet>
+        <DisableInterrupts>0</DisableInterrupts>
+        <LeaveRunning>0</LeaveRunning>
+        <MultiCoreRunAll>0</MultiCoreRunAll>
+    </Jet>
+    <ArmDriver>
+        <EnableCache>1</EnableCache>
+    </ArmDriver>
+    <struct_types>
+        <Fmt0>METRO_STPM_TypeDef-DFECTRL1	4	0</Fmt0>
+        <Fmt1>METRO_STPM_TypeDef-DFECTRL2	4	0</Fmt1>
+        <Fmt2>METRO_STPM_TypeDef-DSPCTRL1	4	0</Fmt2>
+        <Fmt3>METRO_STPM_TypeDef-DSPCTRL10	4	0</Fmt3>
+        <Fmt4>METRO_STPM_TypeDef-DSPCTRL11	4	0</Fmt4>
+        <Fmt5>METRO_STPM_TypeDef-DSPCTRL12	4	0</Fmt5>
+        <Fmt6>METRO_STPM_TypeDef-DSPCTRL2	4	0</Fmt6>
+        <Fmt7>METRO_STPM_TypeDef-DSPCTRL3	4	0</Fmt7>
+        <Fmt8>METRO_STPM_TypeDef-DSPCTRL4	4	0</Fmt8>
+        <Fmt9>METRO_STPM_TypeDef-DSPCTRL5	4	0</Fmt9>
+        <Fmt10>METRO_STPM_TypeDef-DSPCTRL6	4	0</Fmt10>
+        <Fmt11>METRO_STPM_TypeDef-DSPCTRL7	4	0</Fmt11>
+        <Fmt12>METRO_STPM_TypeDef-DSPCTRL8	4	0</Fmt12>
+        <Fmt13>METRO_STPM_TypeDef-DSPCTRL9	4	0</Fmt13>
+        <Fmt14>METRO_STPM_TypeDef-DSPEVENT1	4	0</Fmt14>
+        <Fmt15>METRO_STPM_TypeDef-DSPEVENT2	4	0</Fmt15>
+        <Fmt16>METRO_STPM_TypeDef-DSPSR1	4	0</Fmt16>
+        <Fmt17>METRO_STPM_TypeDef-DSPSR2	4	0</Fmt17>
+        <Fmt18>METRO_STPM_TypeDef-DSP_REG1	4	0</Fmt18>
+        <Fmt19>METRO_STPM_TypeDef-UARTSPICR1	4	0</Fmt19>
+        <Fmt20>STPM_Com_port_t-cs_pin	4	0</Fmt20>
+        <Fmt21>STPM_Com_port_t-cs_port	4	0</Fmt21>
+        <Fmt22>STPM_Com_port_t-en_pin	3	0</Fmt22>
+        <Fmt23>STPM_Com_port_t-en_port	3	0</Fmt23>
+        <Fmt24>STPM_Com_port_t-spi	4	0</Fmt24>
+        <Fmt25>STPM_Com_port_t-syn_pin	3	0</Fmt25>
+    </struct_types>
+    <Trace2>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+    </Trace2>
+    <SWOTraceWindow>
+        <PcSampling>0</PcSampling>
+        <InterruptLogs>0</InterruptLogs>
+        <ForcedTimeStamps>0</ForcedTimeStamps>
+        <EventCPI>0</EventCPI>
+        <EventEXC>0</EventEXC>
+        <EventFOLD>0</EventFOLD>
+        <EventLSU>0</EventLSU>
+        <EventSLEEP>0</EventSLEEP>
+    </SWOTraceWindow>
+    <DataLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+    </DataLog>
+    <InterruptLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </InterruptLog>
+    <EventLog>
+        <Title_0>Ch3</Title_0>
+        <Symbol_0>0 0 1</Symbol_0>
+        <Title_1>Ch2</Title_1>
+        <Symbol_1>0 0 1</Symbol_1>
+        <Title_2>Ch1</Title_2>
+        <Symbol_2>0 0 1</Symbol_2>
+        <Title_3>Ch0</Title_3>
+        <Symbol_3>0 0 1</Symbol_3>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </EventLog>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>3</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+        <Exclusions />
+    </DriverProfiling>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Count>0</Count>
+    </Breakpoints2>
+    <Aliases>
+        <A0>_ "C:\Users\BAZINFO\Desktop\STSW-STPM002\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\iar\startup_stm32f103xe.s" ""</A0>
+        <Count>1</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+</settings>

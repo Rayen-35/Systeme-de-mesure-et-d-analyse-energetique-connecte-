@@ -1,0 +1,464 @@
+[
+  {
+    "ID": "c:@hspi2",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "hspi2",
+    "location": {
+      "column": "19",
+      "line": "43",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\main.c"
+    },
+    "name": "hspi2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@huart2",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "huart2",
+    "location": {
+      "column": "20",
+      "line": "45",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\main.c"
+    },
+    "name": "huart2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemClock_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SystemClock_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "52",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\main.c"
+    },
+    "name": "SystemClock_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@F@MX_GPIO_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MX_GPIO_Init(void)",
+    "location": {
+      "column": "13",
+      "line": "53",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\main.c"
+    },
+    "name": "MX_GPIO_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@F@MX_SPI2_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MX_SPI2_Init(void)",
+    "location": {
+      "column": "13",
+      "line": "54",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\main.c"
+    },
+    "name": "MX_SPI2_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@F@MX_USART2_UART_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MX_USART2_UART_Init(void)",
+    "location": {
+      "column": "13",
+      "line": "55",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\main.c"
+    },
+    "name": "MX_USART2_UART_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "69",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemClock_Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SystemClock_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "114",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\main.c"
+    },
+    "name": "SystemClock_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@F@MX_SPI2_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void MX_SPI2_Init(void)",
+    "location": {
+      "column": "13",
+      "line": "155",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\main.c"
+    },
+    "name": "MX_SPI2_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@F@MX_USART2_UART_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void MX_USART2_UART_Init(void)",
+    "location": {
+      "column": "13",
+      "line": "195",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\main.c"
+    },
+    "name": "MX_USART2_UART_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@F@MX_GPIO_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void MX_GPIO_Init(void)",
+    "location": {
+      "column": "13",
+      "line": "243",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\main.c"
+    },
+    "name": "MX_GPIO_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Error_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Error_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "296",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\main.c"
+    },
+    "name": "Error_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_MspInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HAL_MspInit(void)",
+    "location": {
+      "column": "6",
+      "line": "64",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\stm32g4xx_hal_msp.c"
+    },
+    "name": "HAL_MspInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_SPI_MspInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HAL_SPI_MspInit(int *)",
+    "location": {
+      "column": "6",
+      "line": "90",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\stm32g4xx_hal_msp.c"
+    },
+    "name": "HAL_SPI_MspInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_SPI_MspDeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HAL_SPI_MspDeInit(int *)",
+    "location": {
+      "column": "6",
+      "line": "127",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\stm32g4xx_hal_msp.c"
+    },
+    "name": "HAL_SPI_MspDeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_UART_MspInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HAL_UART_MspInit(int *)",
+    "location": {
+      "column": "6",
+      "line": "157",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\stm32g4xx_hal_msp.c"
+    },
+    "name": "HAL_UART_MspInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_UART_MspDeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HAL_UART_MspDeInit(int *)",
+    "location": {
+      "column": "6",
+      "line": "204",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\stm32g4xx_hal_msp.c"
+    },
+    "name": "HAL_UART_MspDeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@NMI_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void NMI_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "69",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\stm32g4xx_it.c"
+    },
+    "name": "NMI_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HardFault_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HardFault_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "84",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\stm32g4xx_it.c"
+    },
+    "name": "HardFault_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MemManage_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void MemManage_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "99",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\stm32g4xx_it.c"
+    },
+    "name": "MemManage_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@BusFault_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void BusFault_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "114",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\stm32g4xx_it.c"
+    },
+    "name": "BusFault_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UsageFault_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UsageFault_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "129",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\stm32g4xx_it.c"
+    },
+    "name": "UsageFault_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SVC_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SVC_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "144",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\stm32g4xx_it.c"
+    },
+    "name": "SVC_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@DebugMon_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void DebugMon_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "157",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\stm32g4xx_it.c"
+    },
+    "name": "DebugMon_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PendSV_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PendSV_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "170",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\stm32g4xx_it.c"
+    },
+    "name": "PendSV_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SysTick_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "183",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\stm32g4xx_it.c"
+    },
+    "name": "SysTick_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:system_stm32g4xx.c@3958@macro@HSE_VALUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HSE_VALUE",
+    "location": {
+      "column": "11",
+      "line": "81",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\system_stm32g4xx.c"
+    },
+    "name": "HSE_VALUE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:system_stm32g4xx.c@4093@macro@HSI_VALUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HSI_VALUE",
+    "location": {
+      "column": "11",
+      "line": "85",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\system_stm32g4xx.c"
+    },
+    "name": "HSI_VALUE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@SystemCoreClock",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "SystemCoreClock",
+    "location": {
+      "column": "12",
+      "line": "152",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\system_stm32g4xx.c"
+    },
+    "name": "SystemCoreClock",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@AHBPrescTable",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "AHBPrescTable",
+    "location": {
+      "column": "17",
+      "line": "154",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\system_stm32g4xx.c"
+    },
+    "name": "AHBPrescTable",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@APBPrescTable",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "APBPrescTable",
+    "location": {
+      "column": "17",
+      "line": "155",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\system_stm32g4xx.c"
+    },
+    "name": "APBPrescTable",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SystemInit(void)",
+    "location": {
+      "column": "6",
+      "line": "179",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\system_stm32g4xx.c"
+    },
+    "name": "SystemInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemCoreClockUpdate",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SystemCoreClockUpdate(void)",
+    "location": {
+      "column": "6",
+      "line": "228",
+      "path": "C:\\Users\\BAZINFO\\Desktop\\g4test\\Core\\Src\\system_stm32g4xx.c"
+    },
+    "name": "SystemCoreClockUpdate",
+    "origin": "project_file",
+    "scope": null
+  }
+]
